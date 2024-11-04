@@ -167,7 +167,33 @@ The above table explains how long customers typically subscribes.
              ```
    
 
+### Power Bi
 
+Here, i'm going to build a powerbi dashboard that visualizes key customer segments, cancelations and subscription trends with slicers for interactive analysis
+
+### customer segments
+
+![customer segments](https://github.com/user-attachments/assets/137bf8b3-dc46-4ace-8725-68eb5bb87732)
+
+
+This picture above explains customer trends with their subsription type and their region with a slicer for a better analysis
+
+### Cancelation trends
+
+
+![cancelation trends](https://github.com/user-attachments/assets/7cc1bf7c-ff07-44be-ae26-9e0c01d6e849)
+
+
+This pie chart explains the cancelation trends of subscribers with slicers showing the active and canceled subscriber for more analysis
+
+
+### Subscription trends
+
+
+![subscription trends](https://github.com/user-attachments/assets/f7bc92d8-0bf7-4b5d-a384-3eb21a3ad3ac)
+
+
+This pie chart explains the subscription trends of customers with their region, subscription and the date of their subscription
 
 
 
