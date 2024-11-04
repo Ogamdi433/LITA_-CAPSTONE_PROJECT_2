@@ -76,8 +76,47 @@ This explains the subsription types that have higher cancelation rates.
 
 ![avg subsription duration](https://github.com/user-attachments/assets/c225f6fb-1999-427d-9e66-dbbe3328c353)
 
-The above table explains how long customers typically subscribes
+The above table explains how long customers typically subscribes.
 
 
 
+
+
+1.  here, i'm going to retrieve the no of customers from each region
+
+     ```SQL
+        SELECT region, COUNT (customerid) AS total_customers
+        FROM [dbo]. [lita_project 2]
+        GROUP BY region
+        ```
+
+     
+ 2.  here, i will find the most popular subscription type by the no of customers.
+
+       ```SQL
+           SELECT TOP 1 subscriptiontype, COUNT (customerid) AS number_ of_ customers
+           FROM [dbo]. [lita _project 2]
+           GROUP BY subscriptiontype
+           ORDER BY number_ of_ customers
+           ```
+
+3.  here, i will find customers who canceled their subscription within 6 months.
+
+      ```SQL
+         SELECT COUNT(*) FROM [dbo]. [lita_project 2]
+         WHERE canceled = 1
+          AND
+         DATEDIFF(month, subscriptionstart, subscriptionend) ,= 6
+         ```
+
+4.  
+
+
+
+
+
+
+
+
+       
 
