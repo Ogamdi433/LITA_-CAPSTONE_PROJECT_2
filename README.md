@@ -13,14 +13,14 @@ The primary sources of this project inludes; customer relationship management (C
 ### Tools used
 
 the tools used for this project are;
-Microsoft excel for data cleaning
-SQL for query writing
-Powerbi for visualization and
-Github for documentation
-Data cleaning
-data cleaning involves several processes. to ensure data accuracy, completeness and consistency, here is a step-by-step process.
+-  Microsoft excel for data cleaning
+-  SQL for query writing
+-  Powerbi for visualization and
+-  Github for documentation
+
 
 ### Data cleaning
+data cleaning involves several processes. to ensure data accuracy, completeness and consistency, here is a step-by-step process.
 -  handling missing files
 -  identify missing values (e.g, NULL, blank, NA).
 -  decide on replacement stategies (e.g, mean, median, imputation).
@@ -39,6 +39,8 @@ data cleaning involves several processes. to ensure data accuracy, completeness 
 -  what marketing channels are most effective
 
   ### Data Analysis
+
+  ### EXCEL
 
 1.  Here, i'm going to analyze the customer data using pivot tables to find the subscription patterns.
 
@@ -79,7 +81,7 @@ This explains the subsription types that have higher cancelation rates.
 The above table explains how long customers typically subscribes.
 
 
-
+### SQL (Structured Query Language)
 
 
 1.  here, i'm going to retrieve the no of customers from each region
