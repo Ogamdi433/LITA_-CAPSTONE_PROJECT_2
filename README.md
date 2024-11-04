@@ -109,7 +109,14 @@ The above table explains how long customers typically subscribes.
          DATEDIFF(month, subscriptionstart, subscriptionend) ,= 6
          ```
 
-4.  
+4.  here, i will calculate the average subscription duration for all customers.
+
+
+     ```SQL
+        SELECT AVG(subscription duration) AS average_subscription duration
+        FROM [dbo]. [lita_project]
+
+
 
 
 
