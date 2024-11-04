@@ -106,7 +106,7 @@ The above table explains how long customers typically subscribes.
          SELECT COUNT(*) FROM [dbo]. [lita_project 2]
          WHERE canceled = 1
           AND
-         DATEDIFF(month, subscriptionstart, subscriptionend) ,= 6
+         DATEDIFF(month, subscriptionstart, subscriptionend) <= 6
          ```
 
 4.  here, i will calculate the average subscription duration for all customers.
@@ -115,6 +115,57 @@ The above table explains how long customers typically subscribes.
      ```SQL
         SELECT AVG(subscription duration) AS average_subscription duration
         FROM [dbo]. [lita_project]
+        ```
+
+
+ 5.  here, i will find customers with subscriptions longer than 12 months
+
+      ```SQL
+          SELECT COUNT(*) FROM [dbo]. [lita_project 2)
+          WHERE
+           DATEDIFF(month, subscriptionstart, subscriptionend) >12
+            ```
+
+6.  here, i will calculatetotal revenue by subscription type.
+
+     ```SQL
+         SELECT subscriptiontype, SUM(revenue) AS total_revenue
+         FROM [dbo]. [lita_project 2]
+         GROUP BY subscriptiontype
+          ```
+
+7.  here, i will find the top 3 regions by subscription cancelations.
+
+     ``` SQL
+         SELECT TOP 3 region, COUNT(*) AS cancelation_count
+         FROM [dbo]. [lita_project 2]
+         WHERE canceled = 1
+         GROUP BY region
+         ORDER BY cancelation_count DESC
+          ```
+
+
+
+8.  Here, i will find the total no of active and canceled subscriptions.
+
+   #### Active subscribers
+
+         ```SQL
+            SELECT COUNT (*)
+            FROM [dbo]. [lita_project 2]
+            WHERE canceled =0
+             ```
+
+
+   #### Canceled subscribers
+
+
+          ```SQL
+             SELECT COUNT(*)
+             FROM [dbo]. [lita_project 2]
+             WHERE canceled = 1
+             ```
+   
 
 
 
