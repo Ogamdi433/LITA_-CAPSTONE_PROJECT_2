@@ -243,7 +243,8 @@ This pie chart explains the cancelation trends of subscribers with slicers showi
 
 This pie chart explains the subscription trends of customers with their region, subscription and the date of their subscription
 
-
+   In conclusion, my analysis of the customer dataset revealed valuable insights into customer behaviour, preference and revenue patterns. 
+ this segmentation helped identify disinct customer groups, enabling targeted strategies to enhance customer retention, acquisition and revenue growth.
 
 
 
