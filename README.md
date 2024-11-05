@@ -2,7 +2,18 @@
 
 ### Project Title: Customer Segementation for a Subscription Service
 
-### Project Overview
+[Project Overview](#Project-Overview)
+
+[Data sources](#Data-sources)
+
+[Tools used](#Tools-used)
+
+[Data cleaning](#Data-cleaning)
+
+[exploratory data analysis (EDA)](#Exploratory-data-analysis (EDA))
+
+[Data Analysis](#Data-Analysis)
+
 
 This customer segementation analysis aims to identify distinct groups within the subscription service and customer subscription type, enabling data-driven decisions to enhance customer experiences, optimize marketing strategies and increase oveerall subscription value.
 
