@@ -14,7 +14,7 @@
 
 [Data Analysis](#Data-Analysis)
 
-
+### Project Overview 
 This customer segementation analysis aims to identify distinct groups within the subscription service and customer subscription type, enabling data-driven decisions to enhance customer experiences, optimize marketing strategies and increase oveerall subscription value.
 
 ### Data sources.
@@ -107,7 +107,7 @@ The above table explains how long customers typically subscribe
 ![popular sub type](https://github.com/user-attachments/assets/52b2016c-f00f-48cf-8b37-28c84e187913)
 
 
-Given the explanation of this table above, the popular subscription type is BASIC because it has the hihest number of subscribers.
+Given the explanation of this table above, the popular subscription type is BASIC because it has the highest number of subscribers.
 
 
 
